@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">91,710</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.Project.TestCases.AddMobileToCartTest</td><td><a href="#m0">TestCase10</a></td><td rowspan="1">1741537386069</td><td rowspan="1">14221</td></tr><tr class="failedeven"><td><a href="#m1">TestCase3</a></td><td rowspan="1">1741537328981</td><td rowspan="1">10398</td></tr><tr class="failedeven"><td><a href="#m2">TestCase6</a></td><td rowspan="1">1741537352971</td><td rowspan="1">10071</td></tr><tr class="failedeven"><td><a href="#m3">TestCase9</a></td><td rowspan="1">1741537376010</td><td rowspan="1">10055</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.Project.TestCases.AddMobileToCartTest</td><td><a href="#m4">TestCase1</a></td><td rowspan="1">1741537317827</td><td rowspan="1">7230</td></tr><tr class="passedeven"><td><a href="#m5">TestCase2</a></td><td rowspan="1">1741537325064</td><td rowspan="1">3915</td></tr><tr class="passedeven"><td><a href="#m6">TestCase4</a></td><td rowspan="1">1741537339400</td><td rowspan="1">3856</td></tr><tr class="passedeven"><td><a href="#m7">TestCase5</a></td><td rowspan="1">1741537343260</td><td rowspan="1">9707</td></tr><tr class="passedeven"><td><a href="#m8">TestCase7</a></td><td rowspan="1">1741537363050</td><td rowspan="1">3327</td></tr><tr class="passedeven"><td><a href="#m9">TestCase8</a></td><td rowspan="1">1741537366380</td><td rowspan="1">9627</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.Project.TestCases.AddMobileToCartTest#TestCase10</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Cart Page Appears...</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Mobile Not Found in Cart expected [true] but found [false]
+	at com.Project.TestCases.AddMobileToCartTest.TestCase10(AddMobileToCartTest.java:206)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Project.TestCases.AddMobileToCartTest#TestCase3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Product Page of Mobile is Done...<br/>New Tab Opens..</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.NwyjNT&quot;}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e22d0970b3b606a4a3ccdaa177813dce, findElement {value=NwyjNT, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60569/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e22d0970b3b606a4a3ccdaa177813dce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.Project.PageObjectModel.ProductPage.addProductToCart(ProductPage.java:31)
+	at com.Project.TestCases.AddMobileToCartTest.TestCase3(AddMobileToCartTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Project.TestCases.AddMobileToCartTest#TestCase6</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Product Page of Tablet is Done...<br/>New Tab Opens..</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.NwyjNT&quot;}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e22d0970b3b606a4a3ccdaa177813dce, findElement {value=NwyjNT, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60569/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e22d0970b3b606a4a3ccdaa177813dce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.Project.PageObjectModel.ProductPage.addProductToCart(ProductPage.java:31)
+	at com.Project.TestCases.AddMobileToCartTest.TestCase6(AddMobileToCartTest.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Project.TestCases.AddMobileToCartTest#TestCase9</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Product Page of Laptop is Done...<br/>New Tab Opens..</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.NwyjNT&quot;}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e22d0970b3b606a4a3ccdaa177813dce, findElement {value=NwyjNT, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60569/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e22d0970b3b606a4a3ccdaa177813dce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.Project.PageObjectModel.ProductPage.addProductToCart(ProductPage.java:31)
+	at com.Project.TestCases.AddMobileToCartTest.TestCase9(AddMobileToCartTest.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Project.TestCases.AddMobileToCartTest#TestCase1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Flipkart Opens..<br/>Smart Phone Searched...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Project.TestCases.AddMobileToCartTest#TestCase2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Search Results Page of Mobile is Done...<br/>Selecting a Mobile of Particular Brand is Done...<br/>Selecting the Mobile is Done..</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Project.TestCases.AddMobileToCartTest#TestCase4</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switched to Home Page...<br/>Search Box is Cleared...<br/>Tablet is Searched...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.Project.TestCases.AddMobileToCartTest#TestCase5</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Search Results Page of Tablet is Done...<br/>Different Brands of Tablet Appers...<br/>Selecting a Tablet of Particular Brand is Done...<br/>Selecting the Tablet is Done..</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Project.TestCases.AddMobileToCartTest#TestCase7</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switched to Home Page...<br/>Search Box is Cleared...<br/>Laptop is Searched...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Project.TestCases.AddMobileToCartTest#TestCase8</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Switching to Search Results Page of Laptop is Done...<br/>Different Brands of Laptop Appers...<br/>Selecting a Laptop of Particular Brand is Done...<br/>Selecting the Laptop is Done..</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Flipkart Opens..]]>
+    </line>
+    <line>
+      <![CDATA[Smart Phone Searched...]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Search Results Page of Mobile is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting a Mobile of Particular Brand is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the Mobile is Done..]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Product Page of Mobile is Done...]]>
+    </line>
+    <line>
+      <![CDATA[New Tab Opens..]]>
+    </line>
+    <line>
+      <![CDATA[Mobile is Added To Cart...]]>
+    </line>
+    <line>
+      <![CDATA[Current Tab is Closed...]]>
+    </line>
+    <line>
+      <![CDATA[Switched to Home Page...]]>
+    </line>
+    <line>
+      <![CDATA[Search Box is Cleared...]]>
+    </line>
+    <line>
+      <![CDATA[Tablet is Searched...]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Search Results Page of Tablet is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Different Brands of Tablet Appers...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting a Tablet of Particular Brand is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the Tablet is Done..]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Product Page of Tablet is Done...]]>
+    </line>
+    <line>
+      <![CDATA[New Tab Opens..]]>
+    </line>
+    <line>
+      <![CDATA[Tablet is Added To Cart...]]>
+    </line>
+    <line>
+      <![CDATA[Current Tab is Closed...]]>
+    </line>
+    <line>
+      <![CDATA[Switched to Home Page...]]>
+    </line>
+    <line>
+      <![CDATA[Search Box is Cleared...]]>
+    </line>
+    <line>
+      <![CDATA[Laptop is Searched...]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Search Results Page of Laptop is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Different Brands of Laptop Appers...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting a Laptop of Particular Brand is Done...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the Laptop is Done..]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Product Page of Laptop is Done...]]>
+    </line>
+    <line>
+      <![CDATA[New Tab Opens..]]>
+    </line>
+    <line>
+      <![CDATA[Laptop is Added To Cart...]]>
+    </line>
+    <line>
+      <![CDATA[Current Tab is Closed...]]>
+    </line>
+    <line>
+      <![CDATA[Cart Page Appears...]]>
+    </line>
+    <line>
+      <![CDATA[All The Products Verified...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-09T22:34:48 IST" name="Default suite" finished-at="2025-03-09T22:35:51 IST" duration-ms="63025">
+    <groups>
+    </groups>
+    <test started-at="2025-03-09T22:34:48 IST" name="Default test" finished-at="2025-03-09T22:35:51 IST" duration-ms="63025">
+      <class name="com.Project.TestCases.AddMobileToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:34:48 IST" name="setup" finished-at="2025-03-09T22:34:55 IST" duration-ms="7034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1()[pri:1, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:34:55 IST" name="TestCase1" finished-at="2025-03-09T22:35:01 IST" duration-ms="5896" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Flipkart Opens..]]>
+            </line>
+            <line>
+              <![CDATA[Smart Phone Searched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method signature="TestCase2()[pri:2, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:01 IST" name="TestCase2" finished-at="2025-03-09T22:35:05 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase1" duration-ms="3838" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Search Results Page of Mobile is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting a Mobile of Particular Brand is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the Mobile is Done..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method signature="TestCase3()[pri:3, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:05 IST" name="TestCase3" finished-at="2025-03-09T22:35:08 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase2" duration-ms="3239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Product Page of Mobile is Done...]]>
+            </line>
+            <line>
+              <![CDATA[New Tab Opens..]]>
+            </line>
+            <line>
+              <![CDATA[Mobile is Added To Cart...]]>
+            </line>
+            <line>
+              <![CDATA[Current Tab is Closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method signature="TestCase4()[pri:4, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:08 IST" name="TestCase4" finished-at="2025-03-09T22:35:12 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase3" duration-ms="3354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switched to Home Page...]]>
+            </line>
+            <line>
+              <![CDATA[Search Box is Cleared...]]>
+            </line>
+            <line>
+              <![CDATA[Tablet is Searched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method signature="TestCase5()[pri:5, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:12 IST" name="TestCase5" finished-at="2025-03-09T22:35:21 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase4" duration-ms="9677" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Search Results Page of Tablet is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Different Brands of Tablet Appers...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting a Tablet of Particular Brand is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the Tablet is Done..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method signature="TestCase6()[pri:6, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:21 IST" name="TestCase6" finished-at="2025-03-09T22:35:25 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase5" duration-ms="3251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Product Page of Tablet is Done...]]>
+            </line>
+            <line>
+              <![CDATA[New Tab Opens..]]>
+            </line>
+            <line>
+              <![CDATA[Tablet is Added To Cart...]]>
+            </line>
+            <line>
+              <![CDATA[Current Tab is Closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method signature="TestCase7()[pri:7, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:25 IST" name="TestCase7" finished-at="2025-03-09T22:35:28 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase6" duration-ms="3260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switched to Home Page...]]>
+            </line>
+            <line>
+              <![CDATA[Search Box is Cleared...]]>
+            </line>
+            <line>
+              <![CDATA[Laptop is Searched...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method signature="TestCase8()[pri:8, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:28 IST" name="TestCase8" finished-at="2025-03-09T22:35:37 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase7" duration-ms="9632" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Search Results Page of Laptop is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Different Brands of Laptop Appers...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting a Laptop of Particular Brand is Done...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the Laptop is Done..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method signature="TestCase9()[pri:9, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:37 IST" name="TestCase9" finished-at="2025-03-09T22:35:41 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase8" duration-ms="3254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Product Page of Laptop is Done...]]>
+            </line>
+            <line>
+              <![CDATA[New Tab Opens..]]>
+            </line>
+            <line>
+              <![CDATA[Laptop is Added To Cart...]]>
+            </line>
+            <line>
+              <![CDATA[Current Tab is Closed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase9 -->
+        <test-method signature="TestCase10()[pri:10, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:41 IST" name="TestCase10" finished-at="2025-03-09T22:35:50 IST" depends-on-methods="com.Project.TestCases.AddMobileToCartTest.TestCase9" duration-ms="9222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart Page Appears...]]>
+            </line>
+            <line>
+              <![CDATA[All The Products Verified...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Project.TestCases.AddMobileToCartTest@327514f]" started-at="2025-03-09T22:35:50 IST" name="tearDown" finished-at="2025-03-09T22:35:51 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Project.TestCases.AddMobileToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+com\Project\PageObjectModel\CartPage.class
+com\Project\TestCases\Base_Class.class
+com\Project\PageObjectModel\ProductPage.class
+com\Project\PageObjectModel\HomePage.class
+com\Project\PageObjectModel\SearchResultsPage.class
+com\Project\TestCases\AddMobileToCartTest.class
